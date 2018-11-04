@@ -1,12 +1,15 @@
 # 201834861dongxiao
 DataMining Homwork
 文件简介：
-KNN-News文件夹，包括：数据集跟源代码
+KNN-News文件夹，包括：数据集(数据集太大，上传失败）跟源代码
 实验报告
 运行结果截图
 
 步骤一：
 构建VSM,借助sklearn里面的TfidfVectorizer来实现。
+
+
+
 步骤二：
 借助划分好的数据集：
 20news-bydate-test
