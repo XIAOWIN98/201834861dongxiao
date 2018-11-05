@@ -59,11 +59,8 @@ def checkRes(tstlab,tstres):
 print("加载训练数据 ...")
 #t = time()
 trndocs = load_files('./20news-bydate/20news-bydate-train')
-#print("训练数据总结: {0} 个文档在  {1} 目录中。".format(
-#    len(trndocs.data), len(trndocs.target_names)))
+
 tstdocs = load_files('./20news-bydate/20news-bydate-test')
-#print("测试数据总结: {0} 个文档在  {1} 目录中。".format(
-  #  len(tstdocs.data), len(tstdocs.target_names)))
 
 #print("运行时间 {0}秒".format(time() - t))
 
